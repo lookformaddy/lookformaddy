@@ -2,14 +2,15 @@
 
 **Forward-deployed AI leader turning enterprise data into context — knowledge graphs · semantic layers · agentic platforms.**
 
-Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the way enterprises actually run them: governed, observable, evaluated, shipped. This profile is a working portfolio — every project below is a complete, documented, runnable system, built clean-room on synthetic data.
-
 🌐 **Portfolio website: https://lookformaddy.github.io**
+
+Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the way enterprises actually run them: governed, observable, evaluated, shipped. This profile is a working portfolio — every project below is a complete, documented, runnable system, built clean-room on synthetic data.
 
 ## Portfolio — enterprise-grade, end to end
 
 ### AI Engineering
 - [context-engineering-platform](https://github.com/lookformaddy/context-engineering-platform) — Context assembly service for enterprise LLM applications: chunking, semantic metadata, freshness policies, vector retrieval, citation-carrying context bundles, golden-set evals.
+- [agentic-workflow-platform](https://github.com/lookformaddy/agentic-workflow-platform) — Durable agent orchestration: checkpointed workflows, retries with backoff, human approval gates, full run history.
 - [mcp-ai-assistant](https://github.com/lookformaddy/mcp-ai-assistant) — MCP-style tool server (stdio + HTTP) and assistant client: schema-validated tools, read/write permission scopes, full audit log.
 - [multi-agent-research-automation](https://github.com/lookformaddy/multi-agent-research-automation) — Planner / researcher / analyst / writer / critic agent system producing source-cited reports with a verification pass.
 - [secure-rag-chatbot-guardrails](https://github.com/lookformaddy/secure-rag-chatbot-guardrails) — RAG with document-ACL-enforced retrieval and a full guardrail stack: injection screening, PII redaction, groundedness checks.
@@ -18,11 +19,13 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [lora-finetuned-llm](https://github.com/lookformaddy/lora-finetuned-llm) — End-to-end LoRA fine-tuning: from-scratch adapters on a small transformer, real training run, base-vs-tuned evaluation, model card.
 - [knowledge-graph-rag-assistant](https://github.com/lookformaddy/knowledge-graph-rag-assistant) — GraphRAG: hybrid chunk + multi-hop graph retrieval with graph-path citations (multi-hop eval: 100% vs 0% chunk-only).
 
+### Data Engineering
+- [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
+- [elt-data-contracts-platform](https://github.com/lookformaddy/elt-data-contracts-platform) — ELT pipelines governed by data contracts: schema enforcement, contract versioning, breaking-change detection, quality gates.
+
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
-
-### Data Engineering
-- [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Event ingestion, stream processing, lakehouse tables, data-quality checks, and latency SLIs. *(landing now)*
+- [feature-store](https://github.com/lookformaddy/feature-store) — Feature store with point-in-time correct training sets, online/offline stores, and freshness monitoring.
 
 ## Themes I build in
 
