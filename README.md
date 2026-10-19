@@ -7,10 +7,17 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 ## Portfolio — enterprise-grade, end to end
 
 ### AI Engineering
-- [context-engineering-platform](https://github.com/maddy121312/context-engineering-platform) — Context assembly service for enterprise LLM applications: source connectors, chunking strategies, semantic metadata, freshness policies, vector retrieval, citation-carrying context bundles, and a golden-set eval harness.
+- [context-engineering-platform](https://github.com/maddy121312/context-engineering-platform) — Context assembly service for enterprise LLM applications: chunking, semantic metadata, freshness policies, vector retrieval, citation-carrying context bundles, golden-set evals.
+- [mcp-ai-assistant](https://github.com/maddy121312/mcp-ai-assistant) — MCP-style tool server (stdio + HTTP) and assistant client: schema-validated tools, read/write permission scopes, full audit log.
+- [multi-agent-research-automation](https://github.com/maddy121312/multi-agent-research-automation) — Planner / researcher / analyst / writer / critic agent system producing source-cited reports with a verification pass.
+- [secure-rag-chatbot-guardrails](https://github.com/maddy121312/secure-rag-chatbot-guardrails) — RAG with document-ACL-enforced retrieval and a full guardrail stack: injection screening, PII redaction, groundedness checks.
+- [llm-evaluation-pipeline](https://github.com/maddy121312/llm-evaluation-pipeline) — CI-grade LLM evaluation: versioned golden datasets, multiple scorers, baseline regression gating, trend reports.
+- [human-approved-agent-audit](https://github.com/maddy121312/human-approved-agent-audit) — Governed agent runtime: risk-tiered human approvals for consequential actions, hash-chained tamper-evident audit log.
+- [lora-finetuned-llm](https://github.com/maddy121312/lora-finetuned-llm) — End-to-end LoRA fine-tuning: from-scratch adapters on a small transformer, real training run, base-vs-tuned evaluation, model card.
+- [knowledge-graph-rag-assistant](https://github.com/maddy121312/knowledge-graph-rag-assistant) — GraphRAG: hybrid chunk + multi-hop graph retrieval with graph-path citations (multi-hop eval: 100% vs 0% chunk-only).
 
 ### ML Engineering
-- [ml-platform-registry-monitoring](https://github.com/maddy121312/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, and automatic rollback on critical breaches.
+- [ml-platform-registry-monitoring](https://github.com/maddy121312/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
 
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/maddy121312/streaming-lakehouse-platform) — Event ingestion, stream processing, lakehouse tables, data-quality checks, and latency SLIs. *(landing now)*
