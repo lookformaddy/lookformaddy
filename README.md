@@ -11,6 +11,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 ### AI Engineering
 - [context-engineering-platform](https://github.com/lookformaddy/context-engineering-platform) — Context assembly service for enterprise LLM applications: chunking, semantic metadata, freshness policies, vector retrieval, citation-carrying context bundles, golden-set evals.
 - [agentic-workflow-platform](https://github.com/lookformaddy/agentic-workflow-platform) — Durable agent orchestration: checkpointed workflows, retries with backoff, human approval gates, full run history.
+- [enterprise-rag-governance](https://github.com/lookformaddy/enterprise-rag-governance) — Permission-aware RAG governance: ACL-filtered retrieval before ranking, PII redaction at ingestion, chunk-level citations, abstention, leak-rate evals.
 - [mcp-ai-assistant](https://github.com/lookformaddy/mcp-ai-assistant) — MCP-style tool server (stdio + HTTP) and assistant client: schema-validated tools, read/write permission scopes, full audit log.
 - [multi-agent-research-automation](https://github.com/lookformaddy/multi-agent-research-automation) — Planner / researcher / analyst / writer / critic agent system producing source-cited reports with a verification pass.
 - [secure-rag-chatbot-guardrails](https://github.com/lookformaddy/secure-rag-chatbot-guardrails) — RAG with document-ACL-enforced retrieval and a full guardrail stack: injection screening, PII redaction, groundedness checks.
@@ -22,10 +23,12 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
 - [elt-data-contracts-platform](https://github.com/lookformaddy/elt-data-contracts-platform) — ELT pipelines governed by data contracts: schema enforcement, contract versioning, breaking-change detection, quality gates.
+- [data-quality-observability](https://github.com/lookformaddy/data-quality-observability) — Data quality observability: table profiling, declarative quality checks, anomaly detection on metric history, alerting with dedup, quality SLOs.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
 - [feature-store](https://github.com/lookformaddy/feature-store) — Feature store with point-in-time correct training sets, online/offline stores, and freshness monitoring.
+- [experimentation-platform](https://github.com/lookformaddy/experimentation-platform) — A/B experimentation platform: deterministic hash assignment with exclusion layers, exposure logging, pure-stdlib stats, SRM checks, ship/no-ship readouts.
 
 ## Themes I build in
 
