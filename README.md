@@ -13,6 +13,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [agentic-workflow-platform](https://github.com/lookformaddy/agentic-workflow-platform) — Durable agent orchestration: checkpointed workflows, retries with backoff, human approval gates, full run history.
 - [enterprise-rag-governance](https://github.com/lookformaddy/enterprise-rag-governance) — Permission-aware RAG governance: ACL-filtered retrieval before ranking, PII redaction at ingestion, chunk-level citations, abstention, leak-rate evals.
 - [llm-gateway](https://github.com/lookformaddy/llm-gateway) — LLM gateway: model routing policies (cost / latency / quality / round-robin), per-tenant rate limits and monthly budget caps, fallback chains, USD cost accounting, hash-only PII-safe observability.
+- [llm-evaluation-platform](https://github.com/lookformaddy/llm-evaluation-platform) — LLM evaluation platform: versioned golden datasets, five deterministic scorers (exact match, token F1, semantic similarity, faithfulness, safety/PII screen), regression gates vs baseline with per-slice gates, experiment comparison, trend/flakiness detection.
 - [mcp-ai-assistant](https://github.com/lookformaddy/mcp-ai-assistant) — MCP-style tool server (stdio + HTTP) and assistant client: schema-validated tools, read/write permission scopes, full audit log.
 - [multi-agent-research-automation](https://github.com/lookformaddy/multi-agent-research-automation) — Planner / researcher / analyst / writer / critic agent system producing source-cited reports with a verification pass.
 - [secure-rag-chatbot-guardrails](https://github.com/lookformaddy/secure-rag-chatbot-guardrails) — RAG with document-ACL-enforced retrieval and a full guardrail stack: injection screening, PII redaction, groundedness checks.
@@ -26,12 +27,14 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [elt-data-contracts-platform](https://github.com/lookformaddy/elt-data-contracts-platform) — ELT pipelines governed by data contracts: schema enforcement, contract versioning, breaking-change detection, quality gates.
 - [data-quality-observability](https://github.com/lookformaddy/data-quality-observability) — Data quality observability: table profiling, declarative quality checks, anomaly detection on metric history, alerting with dedup, quality SLOs.
 - [semantic-layer-metrics-platform](https://github.com/lookformaddy/semantic-layer-metrics-platform) — Governed semantic layer: metric definitions compiled to deterministic SQL, join fan-out guards, certification gates, TTL caching, metric-to-column lineage, query API.
+- [customer-data-platform](https://github.com/lookformaddy/customer-data-platform) — Customer data platform: multi-source ingestion, deterministic + probabilistic identity resolution with merge/split audit, unified profile store, consent & erasure enforcement, segment builder, activation APIs.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
 - [feature-store](https://github.com/lookformaddy/feature-store) — Feature store with point-in-time correct training sets, online/offline stores, and freshness monitoring.
 - [experimentation-platform](https://github.com/lookformaddy/experimentation-platform) — A/B experimentation platform: deterministic hash assignment with exclusion layers, exposure logging, pure-stdlib stats, SRM checks, ship/no-ship readouts.
 - [recommendation-serving](https://github.com/lookformaddy/recommendation-serving) — Recommendation serving: two-stage candidate generation and ranking, MMR diversity re-ranking, eligibility filters, latency-budget fallback, feedback loop, offline evaluation.
+- [model-serving-at-scale](https://github.com/lookformaddy/model-serving-at-scale) — Model serving at scale: dynamic request batching, canary releases with auto-rollback on error/latency breach, shadow mode with agreement scoring, deterministic A/B routing, version registry, latency percentiles, deadline handling and load-shedding.
 
 ## Themes I build in
 
