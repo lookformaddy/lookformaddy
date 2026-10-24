@@ -22,6 +22,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [lora-finetuned-llm](https://github.com/lookformaddy/lora-finetuned-llm) — End-to-end LoRA fine-tuning: from-scratch adapters on a small transformer, real training run, base-vs-tuned evaluation, model card.
 - [knowledge-graph-rag-assistant](https://github.com/lookformaddy/knowledge-graph-rag-assistant) — GraphRAG: hybrid chunk + multi-hop graph retrieval with graph-path citations (multi-hop eval: 100% vs 0% chunk-only).
 - [ai-copilot-backend](https://github.com/lookformaddy/ai-copilot-backend) — Streaming AI copilot backend: fail-closed request pipeline with per-user rate limits, prompt-injection/PII guardrails, two-tier conversational memory under token budgets, agentic tool orchestration (schema-validated args, parallel fan-out, retries, timeouts), SSE streaming, and a JSONL trace for every request outcome.
+- [multi-agent-orchestration](https://github.com/lookformaddy/multi-agent-orchestration) — Multi-agent orchestration framework: planner/worker agents over a task DAG, capability-matched assignment, versioned shared blackboard, failure recovery (retry, reassign, fallback), human approval gates, per-agent budgets, and cost/latency tracing.
 
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
@@ -30,6 +31,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [semantic-layer-metrics-platform](https://github.com/lookformaddy/semantic-layer-metrics-platform) — Governed semantic layer: metric definitions compiled to deterministic SQL, join fan-out guards, certification gates, TTL caching, metric-to-column lineage, query API.
 - [customer-data-platform](https://github.com/lookformaddy/customer-data-platform) — Customer data platform: multi-source ingestion, deterministic + probabilistic identity resolution with merge/split audit, unified profile store, consent & erasure enforcement, segment builder, activation APIs.
 - [data-governance-lineage](https://github.com/lookformaddy/data-governance-lineage) — Data governance control plane: dataset catalog with evidence-gated certification, column-level lineage graph with BFS impact analysis, role × classification access policies with audited break-glass, PII masking and erasure tombstones, lineage-aware taint propagation with stakeholder impact reports.
+- [cdc-pipeline-platform](https://github.com/lookformaddy/cdc-pipeline-platform) — CDC pipeline platform: LSN-ordered change capture, snapshot + incremental merge, schema evolution with quarantine for incompatible changes, idempotent sinks, checkpoint replay, and lag/throughput metrics.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
@@ -38,6 +40,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [recommendation-serving](https://github.com/lookformaddy/recommendation-serving) — Recommendation serving: two-stage candidate generation and ranking, MMR diversity re-ranking, eligibility filters, latency-budget fallback, feedback loop, offline evaluation.
 - [model-serving-at-scale](https://github.com/lookformaddy/model-serving-at-scale) — Model serving at scale: dynamic request batching, canary releases with auto-rollback on error/latency breach, shadow mode with agreement scoring, deterministic A/B routing, version registry, latency percentiles, deadline handling and load-shedding.
 - [ml-cicd-validation-gates](https://github.com/lookformaddy/ml-cicd-validation-gates) — ML CI/CD validation gates: data gates (schema drift, ranges, null-rate, class balance), model gates (metric floors, must-beat-baseline delta, slice gates, latency/size budgets), McNemar regression detection vs production, reproducibility manifests, promotion stage machine with signed human approvals.
+- [forecasting-platform](https://github.com/lookformaddy/forecasting-platform) — Time-series forecasting platform: from-scratch forecasters (seasonal-naive, Holt-Winters, trend regression), hierarchical reconciliation, rolling-origin backtesting with prediction intervals, champion selection, and versioned forecast registry.
 
 ## Themes I build in
 
