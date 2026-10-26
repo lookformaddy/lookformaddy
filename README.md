@@ -25,6 +25,8 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [multi-agent-orchestration](https://github.com/lookformaddy/multi-agent-orchestration) — Multi-agent orchestration framework: planner/worker agents over a task DAG, capability-matched assignment, versioned shared blackboard, failure recovery (retry, reassign, fallback), human approval gates, per-agent budgets, and cost/latency tracing.
 - [prompt-management-platform](https://github.com/lookformaddy/prompt-management-platform) — Versioned prompt registry with fail-closed approvals, templating, deterministic sticky staged rollouts, A/B testing, and golden-set eval regression gates.
 
+- [ai-guardrails-layer](https://github.com/lookformaddy/ai-guardrails-layer) — Fail-closed guardrails service: PII/secret detection with redaction, prompt-injection and jailbreak screening, ordered policy packs (ALLOW / REDACT / BLOCK / FLAG), tamper-evident audit log, golden-set eval.
+
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
 - [elt-data-contracts-platform](https://github.com/lookformaddy/elt-data-contracts-platform) — ELT pipelines governed by data contracts: schema enforcement, contract versioning, breaking-change detection, quality gates.
@@ -35,6 +37,8 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [cdc-pipeline-platform](https://github.com/lookformaddy/cdc-pipeline-platform) — CDC pipeline platform: LSN-ordered change capture, snapshot + incremental merge, schema evolution with quarantine for incompatible changes, idempotent sinks, checkpoint replay, and lag/throughput metrics.
 - [supply-chain-data-platform](https://github.com/lookformaddy/supply-chain-data-platform) — Synthetic supply-chain data platform: inventory graph routing, forecasting baselines, service-level replenishment policy, scored anomaly alerts, and daily SLI rollups.
 
+- [data-mesh-platform](https://github.com/lookformaddy/data-mesh-platform) — Federated data mesh control plane: domain-owned versioned data products, federated governance with global-wins conflict resolution, ranked discovery, expiring audited access grants, SLO health scoring, cross-domain lineage, fail-closed publish gates.
+
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
 - [feature-store](https://github.com/lookformaddy/feature-store) — Feature store with point-in-time correct training sets, online/offline stores, and freshness monitoring.
@@ -44,6 +48,8 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [ml-cicd-validation-gates](https://github.com/lookformaddy/ml-cicd-validation-gates) — ML CI/CD validation gates: data gates (schema drift, ranges, null-rate, class balance), model gates (metric floors, must-beat-baseline delta, slice gates, latency/size budgets), McNemar regression detection vs production, reproducibility manifests, promotion stage machine with signed human approvals.
 - [forecasting-platform](https://github.com/lookformaddy/forecasting-platform) — Time-series forecasting platform: from-scratch forecasters (seasonal-naive, Holt-Winters, trend regression), hierarchical reconciliation, rolling-origin backtesting with prediction intervals, champion selection, and versioned forecast registry.
 - [responsible-ai-toolkit](https://github.com/lookformaddy/responsible-ai-toolkit) — Responsible AI toolkit: fairness metrics and bias audits, explainability, model cards, hash-chained audit log, drift screens, and review-only mitigation aids.
+
+- [embedding-serving-platform](https://github.com/lookformaddy/embedding-serving-platform) — Versioned embedding serving: governed model rollouts, exact + quantized ANN search with recall eval, multi-tenant quotas, TTL caching, drift monitoring, offline evaluation.
 
 ## Themes I build in
 
