@@ -26,6 +26,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [prompt-management-platform](https://github.com/lookformaddy/prompt-management-platform) — Versioned prompt registry with fail-closed approvals, templating, deterministic sticky staged rollouts, A/B testing, and golden-set eval regression gates.
 
 - [ai-guardrails-layer](https://github.com/lookformaddy/ai-guardrails-layer) — Fail-closed guardrails service: PII/secret detection with redaction, prompt-injection and jailbreak screening, ordered policy packs (ALLOW / REDACT / BLOCK / FLAG), tamper-evident audit log, golden-set eval.
+- [llm-observability-platform](https://github.com/lookformaddy/llm-observability-platform) — LLM observability platform: trace ingestion for prompts, model and tool calls, per-request cost/latency/token accounting, quality signals and SLO alerting, trace search, tenant/model cost attribution, retention and sampling policies.
 
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
@@ -38,6 +39,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [supply-chain-data-platform](https://github.com/lookformaddy/supply-chain-data-platform) — Synthetic supply-chain data platform: inventory graph routing, forecasting baselines, service-level replenishment policy, scored anomaly alerts, and daily SLI rollups.
 
 - [data-mesh-platform](https://github.com/lookformaddy/data-mesh-platform) — Federated data mesh control plane: domain-owned versioned data products, federated governance with global-wins conflict resolution, ranked discovery, expiring audited access grants, SLO health scoring, cross-domain lineage, fail-closed publish gates.
+- [data-orchestration-platform](https://github.com/lookformaddy/data-orchestration-platform) — Batch data pipeline orchestration: DAG definitions with dependencies, scheduling and backfills, retries with backoff, SLA/deadline monitoring, data-quality gates as tasks, run history and output lineage, failure/SLA alerting.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
@@ -50,6 +52,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [responsible-ai-toolkit](https://github.com/lookformaddy/responsible-ai-toolkit) — Responsible AI toolkit: fairness metrics and bias audits, explainability, model cards, hash-chained audit log, drift screens, and review-only mitigation aids.
 
 - [embedding-serving-platform](https://github.com/lookformaddy/embedding-serving-platform) — Versioned embedding serving: governed model rollouts, exact + quantized ANN search with recall eval, multi-tenant quotas, TTL caching, drift monitoring, offline evaluation.
+- [ml-experiment-tracking-platform](https://github.com/lookformaddy/ml-experiment-tracking-platform) — ML experiment tracking: experiment/run registry, metric/parameter/artifact logging, content-hashed artifact versioning, run comparison and ranking, promotion gates, reproducibility manifests, and a deterministic synthetic-data trainer demo.
 
 ## Themes I build in
 
