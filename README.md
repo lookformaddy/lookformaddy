@@ -28,6 +28,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [ai-guardrails-layer](https://github.com/lookformaddy/ai-guardrails-layer) — Fail-closed guardrails service: PII/secret detection with redaction, prompt-injection and jailbreak screening, ordered policy packs (ALLOW / REDACT / BLOCK / FLAG), tamper-evident audit log, golden-set eval.
 - [llm-observability-platform](https://github.com/lookformaddy/llm-observability-platform) — LLM observability platform: trace ingestion for prompts, model and tool calls, per-request cost/latency/token accounting, quality signals and SLO alerting, trace search, tenant/model cost attribution, retention and sampling policies.
 - [agent-memory-platform](https://github.com/lookformaddy/agent-memory-platform) — Persistent agent memory: episodic, semantic and procedural stores, consolidation, importance + recency scoring with decay, scoped retrieval, write-time redaction, and supersession with a full audit trail.
+- [semantic-cache-platform](https://github.com/lookformaddy/semantic-cache-platform) — Semantic caching layer for LLM applications: embedding-similarity cache lookup, TTL + LRU eviction, per-tenant namespaces, hit/miss and cost-saved accounting, and an eval harness measuring hit rate and latency/cost saved.
 
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
@@ -42,6 +43,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [data-mesh-platform](https://github.com/lookformaddy/data-mesh-platform) — Federated data mesh control plane: domain-owned versioned data products, federated governance with global-wins conflict resolution, ranked discovery, expiring audited access grants, SLO health scoring, cross-domain lineage, fail-closed publish gates.
 - [data-orchestration-platform](https://github.com/lookformaddy/data-orchestration-platform) — Batch data pipeline orchestration: DAG definitions with dependencies, scheduling and backfills, retries with backoff, SLA/deadline monitoring, data-quality gates as tasks, run history and output lineage, failure/SLA alerting.
 - [data-warehouse-marts-platform](https://github.com/lookformaddy/data-warehouse-marts-platform) — Governed dimensional modeling: declarative sources → staging → SCD Type 2 dimensions → facts, DAG builds with incremental merges, declarative data tests, and model/column lineage.
+- [data-privacy-compliance-platform](https://github.com/lookformaddy/data-privacy-compliance-platform) — Data privacy & compliance control plane: PII discovery and classification, masking/tokenization policies, consent ledger, data-subject-request handling with erasure tombstones, retention policies, and a hash-chained compliance audit log.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
@@ -56,6 +58,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [embedding-serving-platform](https://github.com/lookformaddy/embedding-serving-platform) — Versioned embedding serving: governed model rollouts, exact + quantized ANN search with recall eval, multi-tenant quotas, TTL caching, drift monitoring, offline evaluation.
 - [ml-experiment-tracking-platform](https://github.com/lookformaddy/ml-experiment-tracking-platform) — ML experiment tracking: experiment/run registry, metric/parameter/artifact logging, content-hashed artifact versioning, run comparison and ranking, promotion gates, reproducibility manifests, and a deterministic synthetic-data trainer demo.
 - [automl-platform](https://github.com/lookformaddy/automl-platform) — Tabular AutoML from scratch: deterministic candidate models, stratified k-fold CV trials with early stopping, leaderboard ranking, champion promotion gates, and a JSON-serializable model registry.
+- [continual-learning-platform](https://github.com/lookformaddy/continual-learning-platform) — Continual / online learning platform: incremental tabular model updates from streaming batches, concept-drift detection, replay-buffer mitigation of catastrophic forgetting, drift-triggered retraining, and versioned snapshots with rollback.
 
 ## Themes I build in
 
