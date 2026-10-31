@@ -30,6 +30,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [agent-memory-platform](https://github.com/lookformaddy/agent-memory-platform) — Persistent agent memory: episodic, semantic and procedural stores, consolidation, importance + recency scoring with decay, scoped retrieval, write-time redaction, and supersession with a full audit trail.
 - [semantic-cache-platform](https://github.com/lookformaddy/semantic-cache-platform) — Semantic caching layer for LLM applications: embedding-similarity cache lookup, TTL + LRU eviction, per-tenant namespaces, hit/miss and cost-saved accounting, and an eval harness measuring hit rate and latency/cost saved.
 - [agent-tool-gateway](https://github.com/lookformaddy/agent-tool-gateway) — Secure tool gateway for AI agents: versioned tool registry with JSON-schema contracts, fail-closed scope authorization, approval gates for high-risk tools, per-tool rate limits and timeouts, idempotency, hash-chained audit log, and cost/latency accounting.
+- [llm-fine-tuning-platform](https://github.com/lookformaddy/llm-fine-tuning-platform) — LLM fine-tuning platform: queued jobs with retries, content-hashed dataset versioning, LoRA/full training configs, versioned checkpoints promoted only through eval gates, and fail-closed cost budgets.
 
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
@@ -46,6 +47,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [data-warehouse-marts-platform](https://github.com/lookformaddy/data-warehouse-marts-platform) — Governed dimensional modeling: declarative sources → staging → SCD Type 2 dimensions → facts, DAG builds with incremental merges, declarative data tests, and model/column lineage.
 - [data-privacy-compliance-platform](https://github.com/lookformaddy/data-privacy-compliance-platform) — Data privacy & compliance control plane: PII discovery and classification, masking/tokenization policies, consent ledger, data-subject-request handling with erasure tombstones, retention policies, and a hash-chained compliance audit log.
 - [data-migration-platform](https://github.com/lookformaddy/data-migration-platform) — Governed data migration platform: declarative source→target mappings, dependency-ordered plans, dry-run vs apply, row-count and checksum reconciliation, checkpointed resumable runs, rollback snapshots, and quarantined failed rows.
+- [event-schema-registry-platform](https://github.com/lookformaddy/event-schema-registry-platform) — Event schema registry: versioned schemas, BACKWARD/FORWARD/FULL compatibility checks, safe-migration planning, record validation and schema-framed serde, producer/consumer contracts with upgrade impact reports, and a hash-chained audit log.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
@@ -62,6 +64,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [automl-platform](https://github.com/lookformaddy/automl-platform) — Tabular AutoML from scratch: deterministic candidate models, stratified k-fold CV trials with early stopping, leaderboard ranking, champion promotion gates, and a JSON-serializable model registry.
 - [continual-learning-platform](https://github.com/lookformaddy/continual-learning-platform) — Continual / online learning platform: incremental tabular model updates from streaming batches, concept-drift detection, replay-buffer mitigation of catastrophic forgetting, drift-triggered retraining, and versioned snapshots with rollback.
 - [model-compression-platform](https://github.com/lookformaddy/model-compression-platform) — Model compression platform from scratch: magnitude pruning, int8 post-training quantization, and knowledge distillation, with accuracy/size/latency trade-off evaluation, promotion gates, and a versioned artifact registry with rollback.
+- [model-explainability-platform](https://github.com/lookformaddy/model-explainability-platform) — Model explainability platform: permutation importance, occlusion-based local contributions, counterfactual search, PDP/ICE curves, faithfulness and stability quality gates, explanation-drift monitoring, and Markdown/JSON explanation reports.
 
 ## Themes I build in
 
