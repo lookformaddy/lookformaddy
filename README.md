@@ -36,6 +36,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [multimodal-agent-platform](https://github.com/lookformaddy/multimodal-agent-platform) — Multimodal agent platform: validated text/image/audio input envelopes, confidence-weighted fusion with missing-modality handling, schema-validated tool loop, fail-closed PII/injection safety, and per-request cost/latency/token accounting.
 - [enterprise-search-platform](https://github.com/lookformaddy/enterprise-search-platform) — Enterprise search platform: hybrid BM25 + vector retrieval, ACL filtering before ranking (fail-closed), explainable scores, relevance evaluation, index versioning with rollback, per-tenant quotas, and hashed-query audit log.
 - [ai-incident-response-platform](https://github.com/lookformaddy/ai-incident-response-platform) — AI incident response platform: threshold and anomaly detectors with alert-storm suppression, validated incident lifecycle with dedup/merge, approval-gated mitigation playbooks, on-call escalation, postmortem generation, cost and SLO accounting, and a hash-chained audit log.
+- [ai-governance-platform](https://github.com/lookformaddy/ai-governance-platform) — AI governance control plane: model inventory and registration, risk-tiered governance, versioned policy registry with compliance checks, signed two-approver deployment workflow, lifecycle gates, drift/fairness evidence attachment, and a hash-chained audit log.
 
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
@@ -58,6 +59,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [real-time-analytics-platform](https://github.com/lookformaddy/real-time-analytics-platform) — Real-time analytics engine: schema-validated ingestion with quarantine, tumbling/sliding window aggregations, incremental materialized views, watermark-based late-event handling, deduped alert lifecycle, and deterministic replay.
 - [lakehouse-optimization-platform](https://github.com/lookformaddy/lakehouse-optimization-platform) — Lakehouse optimization platform: file statistics and partition-skew analysis, compaction planning, partition-pruning and Z-order advisors, fail-closed vacuum, cost/benefit estimation, dry-run vs apply with rollback manifests, and optimization SLO reporting.
 - [data-cost-optimization-platform](https://github.com/lookformaddy/data-cost-optimization-platform) — Data cost optimization platform: warehouse cost attribution to teams, waste detectors (idle tables, over-provisioning, zombie jobs), risk-rated optimization recommendations with dry-run-first apply, per-team budgets with burn-rate forecasts, and a projected-vs-realized savings ledger.
+- [graph-data-platform](https://github.com/lookformaddy/graph-data-platform) — Enterprise graph data platform: fail-closed ingestion with quarantine, deterministic + fuzzy entity resolution with merge/split audit, versioned snapshots with time-travel reads, traversal queries (shortest path, k-hop, centrality, cycle detection), and graph quality reporting.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
@@ -80,9 +82,11 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [causal-inference-platform](https://github.com/lookformaddy/causal-inference-platform) — Causal inference platform from scratch: propensity matching with balance diagnostics, IPW, difference-in-differences with parallel-trends checks, uplift deciles, bootstrap CIs, sensitivity bounds, and a gated experiment registry.
 - [distributed-training-platform](https://github.com/lookformaddy/distributed-training-platform) — Distributed training platform: job scheduling with retries, synchronous data-parallel training from scratch, SHA-256-verified checkpointing with resume, worker-failure recovery and straggler detection, elastic scaling, cost accounting, and a gated run registry.
 - [federated-learning-platform](https://github.com/lookformaddy/federated-learning-platform) — Federated learning platform: simulation-first training across non-IID clients, FedAvg/FedProx/trimmed-mean aggregation, masked secure aggregation, differential-privacy budgeting with a fail-closed cap, straggler handling, and a gated model registry.
+- [hyperparameter-tuning-platform](https://github.com/lookformaddy/hyperparameter-tuning-platform) — Hyperparameter tuning platform: study/trial management with grid, random, successive-halving and Bayesian-style search, median-rule pruning, gated champion promotion, reproducibility manifests, and step/cost budget caps — with from-scratch tabular trainers.
 
 ## Themes I build in
 
 Knowledge graphs · Semantic layers · Context engineering · Agentic AI systems · Data platforms · LLMOps / MLOps · Experimentation · Responsible AI & governance · End-to-end AI products (React, APIs, backend)
 
 New projects land here regularly — follow along.
+
