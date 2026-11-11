@@ -42,6 +42,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [agent-evaluation-platform](https://github.com/lookformaddy/agent-evaluation-platform) — Agent evaluation harness: versioned golden task suites, tool-use and trajectory scorers, groundedness and refusal checks, per-run cost/latency accounting, fail-closed regression gates vs baseline, and a versioned eval registry.
 
 - [knowledge-graph-platform](https://github.com/lookformaddy/knowledge-graph-platform) — Enterprise knowledge graph platform: deterministic entity/relation extraction, versioned graph store with time-travel reads, merge/split entity resolution, multi-hop query with a declarative language, PageRank and community detection, role-based governance with PII redaction, and a golden-set eval harness.
+- [conversational-ai-platform](https://github.com/lookformaddy/conversational-ai-platform) — Multi-turn conversational AI platform: from-scratch intent classification and slot filling, dialogue state tracking, policy-driven actions, confirmation gates, human handoff, and a fail-closed safety screen.
 
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
@@ -70,6 +71,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [data-access-platform](https://github.com/lookformaddy/data-access-platform) — Governed self-serve data access: access-request lifecycle with two-approver sign-off for sensitive data and separation of duties, purpose-scoped expiring grants, column-level masking policies, per-grant metering with hard caps and burn-rate forecasts, revocation propagation, recertification, and a hash-chained audit log.
 
 - [data-integration-platform](https://github.com/lookformaddy/data-integration-platform) — Enterprise data integration hub: pluggable source connectors, declarative field mappings with transforms, watermarked incremental ingestion with checkpointed state, data-quality gates with reason-carrying quarantine, job orchestration with retries and dry-run vs apply, and column-level lineage.
+- [master-data-management-platform](https://github.com/lookformaddy/master-data-management-platform) — Golden-record master data management: deterministic and fuzzy matching, survivorship rules, stewardship workflow with two-approver merges, hierarchies, and time-travel snapshots.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
@@ -98,6 +100,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [nlp-serving-platform](https://github.com/lookformaddy/nlp-serving-platform) — Production NLP text-classification serving from scratch: TF-IDF vectorizer plus from-scratch logistic regression, versioned registry with gated champion promotion, canary and shadow deployment with agreement scoring, latency budgets with keyword-baseline fallback, vocabulary-drift monitoring, and per-prediction token explanations.
 
 - [computer-vision-serving-platform](https://github.com/lookformaddy/computer-vision-serving-platform) — Production computer-vision serving from scratch: deterministic synthetic image corpus, hand-built features, from-scratch logreg + k-NN ensemble, versioned registry with gated champion promotion, canary/shadow deployment, latency budgets with fallback, and PSI/OOD drift monitoring.
+- [deep-learning-serving-platform](https://github.com/lookformaddy/deep-learning-serving-platform) — Deep-learning serving from scratch: manual backprop MLP, checkpointing with resume, gated champion promotion, canary and shadow deployment, latency-budget fallback, and PSI drift monitoring.
 
 ## Themes I build in
 
