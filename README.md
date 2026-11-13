@@ -44,6 +44,8 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [knowledge-graph-platform](https://github.com/lookformaddy/knowledge-graph-platform) — Enterprise knowledge graph platform: deterministic entity/relation extraction, versioned graph store with time-travel reads, merge/split entity resolution, multi-hop query with a declarative language, PageRank and community detection, role-based governance with PII redaction, and a golden-set eval harness.
 - [conversational-ai-platform](https://github.com/lookformaddy/conversational-ai-platform) — Multi-turn conversational AI platform: from-scratch intent classification and slot filling, dialogue state tracking, policy-driven actions, confirmation gates, human handoff, and a fail-closed safety screen.
 - [multi-modal-rag-platform](https://github.com/lookformaddy/multi-modal-rag-platform) — Multi-modal RAG: unified text/image/audio retrieval, hybrid ranking, citations and abstention.
+- [ai-workflow-automation-platform](https://github.com/lookformaddy/ai-workflow-automation-platform) — Enterprise AI workflow automation: declarative workflow definitions, durable checkpointed runs, human approval gates with escalation, fail-closed budgets, idempotency keys, and a hash-chained audit log.
+- [rag-document-qa](https://github.com/lookformaddy/rag-document-qa) — Two-pipeline RAG document QA: ingestion with chunking and embeddings plus hybrid retrieval with reranking, citation-attached generation, and abstention.
 
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
@@ -74,6 +76,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [data-integration-platform](https://github.com/lookformaddy/data-integration-platform) — Enterprise data integration hub: pluggable source connectors, declarative field mappings with transforms, watermarked incremental ingestion with checkpointed state, data-quality gates with reason-carrying quarantine, job orchestration with retries and dry-run vs apply, and column-level lineage.
 - [master-data-management-platform](https://github.com/lookformaddy/master-data-management-platform) — Golden-record master data management: deterministic and fuzzy matching, survivorship rules, stewardship workflow with two-approver merges, hierarchies, and time-travel snapshots.
 - [data-product-platform](https://github.com/lookformaddy/data-product-platform) — Data product lifecycle: governed publish gates, versioned releases, consumption contracts, SLO health and metering.
+- [data-federation-platform](https://github.com/lookformaddy/data-federation-platform) — Federated query engine over heterogeneous sources: declarative query language, predicate pushdown, cost-based join ordering, fail-closed ACL with column masking, per-tenant metering, result caching, and a hash-chained audit log.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
@@ -104,6 +107,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [computer-vision-serving-platform](https://github.com/lookformaddy/computer-vision-serving-platform) — Production computer-vision serving from scratch: deterministic synthetic image corpus, hand-built features, from-scratch logreg + k-NN ensemble, versioned registry with gated champion promotion, canary/shadow deployment, latency budgets with fallback, and PSI/OOD drift monitoring.
 - [deep-learning-serving-platform](https://github.com/lookformaddy/deep-learning-serving-platform) — Deep-learning serving from scratch: manual backprop MLP, checkpointing with resume, gated champion promotion, canary and shadow deployment, latency-budget fallback, and PSI drift monitoring.
 - [speech-recognition-serving-platform](https://github.com/lookformaddy/speech-recognition-serving-platform) — Speech command serving from scratch: MFCC features, logreg+kNN ensemble, gated registry, canary/shadow, drift monitoring.
+- [graph-ml-platform](https://github.com/lookformaddy/graph-ml-platform) — Graph ML from scratch: node classification, link prediction, skip-gram node embeddings, leakage-safe splits, gated champion promotion, latency-budgeted serving, and embedding-drift monitoring.
 
 ## Themes I build in
 
