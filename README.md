@@ -46,6 +46,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [multi-modal-rag-platform](https://github.com/lookformaddy/multi-modal-rag-platform) — Multi-modal RAG: unified text/image/audio retrieval, hybrid ranking, citations and abstention.
 - [ai-workflow-automation-platform](https://github.com/lookformaddy/ai-workflow-automation-platform) — Enterprise AI workflow automation: declarative workflow definitions, durable checkpointed runs, human approval gates with escalation, fail-closed budgets, idempotency keys, and a hash-chained audit log.
 - [rag-document-qa](https://github.com/lookformaddy/rag-document-qa) — Two-pipeline RAG document QA: ingestion with chunking and embeddings plus hybrid retrieval with reranking, citation-attached generation, and abstention.
+- [token-optimization-platform](https://github.com/lookformaddy/token-optimization-platform) — LLM token optimization: extractive prompt compression, semantic dedup of retrieved context, budget-aware packing, prefix/semantic caching with cost accounting, and gated policy promotion on a golden-set cost/latency/quality eval.
 
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
@@ -77,6 +78,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [master-data-management-platform](https://github.com/lookformaddy/master-data-management-platform) — Golden-record master data management: deterministic and fuzzy matching, survivorship rules, stewardship workflow with two-approver merges, hierarchies, and time-travel snapshots.
 - [data-product-platform](https://github.com/lookformaddy/data-product-platform) — Data product lifecycle: governed publish gates, versioned releases, consumption contracts, SLO health and metering.
 - [data-federation-platform](https://github.com/lookformaddy/data-federation-platform) — Federated query engine over heterogeneous sources: declarative query language, predicate pushdown, cost-based join ordering, fail-closed ACL with column masking, per-tenant metering, result caching, and a hash-chained audit log.
+- [data-pipeline-testing-platform](https://github.com/lookformaddy/data-pipeline-testing-platform) — Testing platform for data pipelines: declarative test suites, deterministic replay with fingerprinting, diff-based regression testing, fail-closed CI gates, flaky-test detection, and JUnit reports.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
@@ -108,6 +110,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [deep-learning-serving-platform](https://github.com/lookformaddy/deep-learning-serving-platform) — Deep-learning serving from scratch: manual backprop MLP, checkpointing with resume, gated champion promotion, canary and shadow deployment, latency-budget fallback, and PSI drift monitoring.
 - [speech-recognition-serving-platform](https://github.com/lookformaddy/speech-recognition-serving-platform) — Speech command serving from scratch: MFCC features, logreg+kNN ensemble, gated registry, canary/shadow, drift monitoring.
 - [graph-ml-platform](https://github.com/lookformaddy/graph-ml-platform) — Graph ML from scratch: node classification, link prediction, skip-gram node embeddings, leakage-safe splits, gated champion promotion, latency-budgeted serving, and embedding-drift monitoring.
+- [active-learning-platform](https://github.com/lookformaddy/active-learning-platform) — Active learning from scratch: uncertainty/diversity query strategies, fail-closed labeling budgets, human-in-the-loop annotation with adjudication, retrain triggers, learning-curve evaluation vs random baseline, and gated champion promotion.
 
 ## Themes I build in
 
