@@ -48,6 +48,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [rag-document-qa](https://github.com/lookformaddy/rag-document-qa) — Two-pipeline RAG document QA: ingestion with chunking and embeddings plus hybrid retrieval with reranking, citation-attached generation, and abstention.
 - [token-optimization-platform](https://github.com/lookformaddy/token-optimization-platform) — LLM token optimization: extractive prompt compression, semantic dedup of retrieved context, budget-aware packing, prefix/semantic caching with cost accounting, and gated policy promotion on a golden-set cost/latency/quality eval.
 - [llm-judge-platform](https://github.com/lookformaddy/llm-judge-platform) — LLM-as-judge evaluation: pairwise arenas with Elo + Bradley-Terry ratings, position/verbosity/self-enhancement bias detection, Cohen's kappa agreement with human labels, rubric scoring, and a gated judge registry with promotion gates and rollback.
+- [agent-sandbox-platform](https://github.com/lookformaddy/agent-sandbox-platform) — Sandboxed tool execution for AI agents: fail-closed execution plane with sandbox lifecycle, policy engine (network allow-list, filesystem scoping, secret blocking), approval gates for high-risk tools, resource budgets with breach termination, and a hash-chained audit log.
 
 ### Data Engineering
 - [streaming-lakehouse-platform](https://github.com/lookformaddy/streaming-lakehouse-platform) — Kafka-style event ingestion, stream processing with event-time windows, lakehouse tables with a transaction log, data-quality gates, latency SLIs.
@@ -81,6 +82,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [data-federation-platform](https://github.com/lookformaddy/data-federation-platform) — Federated query engine over heterogeneous sources: declarative query language, predicate pushdown, cost-based join ordering, fail-closed ACL with column masking, per-tenant metering, result caching, and a hash-chained audit log.
 - [data-pipeline-testing-platform](https://github.com/lookformaddy/data-pipeline-testing-platform) — Testing platform for data pipelines: declarative test suites, deterministic replay with fingerprinting, diff-based regression testing, fail-closed CI gates, flaky-test detection, and JUnit reports.
 - [synthetic-data-platform](https://github.com/lookformaddy/synthetic-data-platform) — Schema-aware synthetic data generation: seeded correlated generation with referential integrity, k-anonymity and re-identification risk gates, fidelity evaluation (KS, PSI, correlation preservation, downstream utility), and a versioned dataset registry with gated promotion.
+- [event-streaming-platform](https://github.com/lookformaddy/event-streaming-platform) — Schema-validated event streaming: topic and partition registry, exactly-once delivery with idempotent processing, consumer groups with checkpointed offsets, deterministic replay, dead-letter queue with redrive, and lag/latency SLIs.
 
 ### ML Engineering
 - [ml-platform-registry-monitoring](https://github.com/lookformaddy/ml-platform-registry-monitoring) — Governed model registry with promotion gates, canary & shadow deployments, drift (PSI/KS) and fairness monitoring, automatic rollback.
@@ -114,6 +116,7 @@ Senior Engineering Leader, Data & AI. I build end-to-end AI & data platforms the
 - [graph-ml-platform](https://github.com/lookformaddy/graph-ml-platform) — Graph ML from scratch: node classification, link prediction, skip-gram node embeddings, leakage-safe splits, gated champion promotion, latency-budgeted serving, and embedding-drift monitoring.
 - [active-learning-platform](https://github.com/lookformaddy/active-learning-platform) — Active learning from scratch: uncertainty/diversity query strategies, fail-closed labeling budgets, human-in-the-loop annotation with adjudication, retrain triggers, learning-curve evaluation vs random baseline, and gated champion promotion.
 - [model-calibration-platform](https://github.com/lookformaddy/model-calibration-platform) — Probability calibration from scratch: Platt scaling, isotonic regression, histogram binning and temperature scaling with cross-fitted fitting, reliability metrics (ECE, MCE, Brier, log-loss), drift-triggered recalibration, and a gated calibrator registry with rollback.
+- [model-ensemble-platform](https://github.com/lookformaddy/model-ensemble-platform) — Model ensemble serving from scratch: voting, weighted blending and stacking with leakage-safe out-of-fold predictions, diversity diagnostics, 9-gate promotion, latency-budgeted serving with graceful degradation, and drift monitoring.
 
 ## Themes I build in
 
